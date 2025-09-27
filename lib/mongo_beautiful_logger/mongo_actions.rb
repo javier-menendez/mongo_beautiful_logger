@@ -12,11 +12,11 @@ module MongoActions
   INSERT       = { match: "\"insert\"#{arrow}",      color: GREEN }
   DELETE       = { match: "\"delete\"#{arrow}",      color: RED }
   AGGREGATE    = { match: "\"aggregate\"#{arrow}",   color: MAGENTA }
-  SUCCEEDED    = { match: "succeeded",                   color: GREEN }
-  FAILED       = { match: "failed",                      color: RED }
-  ERROR        = { match: "error",                       color: RED }
+  SUCCEEDED    = { match: "succeeded",               color: GREEN }
+  FAILED       = { match: "failed",                  color: RED }
+  ERROR        = { match: "error",                   color: RED }
   ENDSESSION   = { match: "\"endsessions\"#{arrow}", color: YELLOW }
-  INITIALIZING = { match: "initializing",                color: GREEN }
+  INITIALIZING = { match: "initializing",            color: GREEN }
   ACTIONS      = [ FIND, UPDATE, INSERT, DELETE, AGGREGATE, 
                    SUCCEEDED, FAILED, ERROR, ENDSESSION, INITIALIZING ]
   
